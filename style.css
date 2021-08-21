@@ -2,7 +2,8 @@
 
 :root{
   /* --green:#ffa500; */
-  --green:#00ff37;
+  /* --green:#00ff37; */
+  --green:#07ce32;
 }
 
 *{
@@ -38,8 +39,8 @@ section{
 
 .heading span{
   font-size: 3.5rem;
-  background: transparent;
-  /* background:rgba(255, 165, 0,.2); */
+  /* background: transparent; */
+  background:rgb(204, 223, 166);
   color:var(--green);
   border-radius: .5rem;
   padding:.2rem 1rem;
@@ -61,8 +62,8 @@ section{
 }
 
 .btn:hover{
-  background:transparent;
-  /* background:rgba(255, 165, 0,.2); */
+  /* background:transparent; */
+  background:rgba(204, 223, 166);
   color:var(--green);
 }
 
@@ -78,7 +79,7 @@ section{
 }
 
 .btn1:hover{
-  background:rgba(42, 77, 230, 0.2);
+  background:rgba(204, 223, 166);
   color:var(--green);
 }
 
@@ -329,7 +330,7 @@ header .search-bar-container label:hover{
 .about .row form{
   flex:1 1 40rem;
   padding:2rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
   border-radius: .5rem;
 }
 
@@ -362,7 +363,7 @@ header .search-bar-container label:hover{
   flex:1 1 30rem;
   border-radius: .5rem;
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
 }
 
 .works .box-container .box img{
@@ -438,7 +439,7 @@ header .search-bar-container label:hover{
 }
 
 .services .box-container .box:hover{
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
 }
 
 .gallery .box-container{
@@ -449,7 +450,7 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box{
   overflow: hidden;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
   border:1rem solid #fff;
   border-radius: .5rem;
   flex:1 1 30rem;
@@ -496,7 +497,7 @@ header .search-bar-container label:hover{
 .review .box{
   padding:2rem;
   text-align: center;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
   border-radius: .5rem;
 }
 
@@ -542,7 +543,7 @@ header .search-bar-container label:hover{
 .contact .row form{
   flex:1 1 50rem;
   padding:2rem;
-  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  box-shadow: 0 1rem 2rem rgba(204, 223, 166);
   border-radius: .5rem;
 }
 
